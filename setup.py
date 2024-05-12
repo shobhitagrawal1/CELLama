@@ -7,6 +7,7 @@ def read_requirements():
     return requirements
 
 setup(
+    py_modules=[],
     name='your_package_name',
     version='0.1.0',
     description = "CELLama",
